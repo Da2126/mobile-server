@@ -4,4 +4,4 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 EXPOSE 8000
-CMD ["nodemon", "index.js"]
+CMD ["node", "index.js"]
